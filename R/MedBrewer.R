@@ -10,7 +10,7 @@ MedPalette <- list(
  Albers2 = list(c("#508082", "#09455d", "#2e5542", "#1d342a", "#a75c18", "#a13020", "#d3b97c", "#caa264"), c(1,2,3,4,5,6,7,8)),
  Corot = list(c("#dee4f4", "#88afb4", "#a9be93", "#647553", "#487439", "#2b3b31"), c(1,2,3,4,5,6)),
  Merz = list(c("#ccae5b", "#3a7db8", "#7ba796", "#517a7b",  "#bdbcb8", "#435658"), c(1,2,3,4,5,6)),
- Valloton = list(c("#768161", "#1a508e", "#a52c33", "#662f56", "#d2bd88", "#c9a781", "#3c4d47", "#5d3d32", "#d1cab0", "#292a25"), c(1,2,3,4,5,6,7,8,9,10))
+ Vallotton = list(c("#768161", "#1a508e", "#a52c33", "#662f56", "#d2bd88", "#c9a781", "#3c4d47", "#5d3d32", "#d1cab0", "#292a25"), c(1,2,3,4,5,6,7,8,9,10))
 )
 
 # Function for generating palettes
@@ -32,7 +32,7 @@ MedPalette <- list(
 #' library(ggplot2)
 #' ggplot(data=iris, aes(x=Species, y=Petal.Length, fill=Species)) +
 #' geom_violin() +
-#' scale_fill_manual(values=med.brewer("Valloton", 3))
+#' scale_fill_manual(values=med.brewer("Vallotton", 3))
 #'
 #' ggplot(data=iris, aes(x=Sepal.Length, y=Sepal.Width, color=Species)) +
 #' geom_point(size=2) +

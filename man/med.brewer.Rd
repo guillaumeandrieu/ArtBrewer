@@ -28,7 +28,7 @@ med.brewer("MED")
 library(ggplot2)
 ggplot(data=iris, aes(x=Species, y=Petal.Length, fill=Species)) +
 geom_violin() +
-scale_fill_manual(values=med.brewer("Valloton", 3))
+scale_fill_manual(values=med.brewer("Vallotton", 3))
 
 ggplot(data=iris, aes(x=Sepal.Length, y=Sepal.Width, color=Species)) +
 geom_point(size=2) +

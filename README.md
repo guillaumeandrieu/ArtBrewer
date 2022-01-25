@@ -84,10 +84,10 @@ scale_color_gradientn(colors=med.brewer("Albers1"))
 ![](palettes/merz-source.jpeg)
 ![](palettes/merz.jpeg)
 
-### Valloton
+### Vallotton
 
-![](palettes/valloton-source.jpeg)
-![](palettes/valloton.jpeg)
+![](palettes/vallotton-source.jpeg)
+![](palettes/vallotton.jpeg)
 
 
 ### Wellspring
