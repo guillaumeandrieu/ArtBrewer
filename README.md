@@ -1,8 +1,4 @@
----
-output:
-  html_document: default
-  pdf_document: default
----
+
 # MedBrewer
 
 Provides a series of art-based colorful palettes.
