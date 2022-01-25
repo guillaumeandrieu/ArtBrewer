@@ -1,3 +1,8 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
 # MedBrewer
 
 Provides a series of art-based colorful palettes.
@@ -17,7 +22,7 @@ And navigate to the downloaded archive.
 
 ## Usage
 
-The function `med.brewer` calls the palette. You can specify the number of colors to use (and interpolate colors), or choose between discrete or continous palettes as examplified below.
+The function `med.brewer` calls the palette. You can specify the number of colors to use (and interpolate colors), or choose between discrete or continuous palettes as exemplified below.
 
 It can be directly called in `ggplot2`. 
 
