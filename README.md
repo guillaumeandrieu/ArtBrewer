@@ -7,7 +7,7 @@ Version 1.0.1 (1/25/2022)
 ## Install Package
 MedBrewer is now able to be downloaded through the GitLab [here](https://gitlab.com/the-oncohemato-lab/r-custom-packages/medbrewer).
 
-1. Locate and download the file `MedBrewer_1.0.0.9000.tar.gz` (the numbers indicate the version of the package).
+1. Locate and download the file `MedBrewer_1.0.1.tar.gz` (the numbers indicate the version of the package).
 
 2. In R Studio, choose `Packages>Install>Install from: Package Archive File (.tgz; .tar.gz)` 
 
