@@ -1,6 +1,6 @@
-Package: medbrewer
+Package: MedBrewer
 Title: An Art-Based Colorful Source of Palettes for R
-Version: 1.0.0.9000
+Version: 1.0.1
 Authors@R: 
      person(given = "Guillaume P.",
            family = "Andrieu",
