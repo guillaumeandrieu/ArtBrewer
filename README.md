@@ -153,13 +153,6 @@ scale_color_gradientn(colors=med.brewer("Albers1"))
 ![](palettes/vangogh1.jpeg)
 
 --- 
-
-### VanGogh1
-
-![](palettes/vangogh1-source.jpeg)
-![](palettes/vangogh1.jpeg)
-
---- 
 ### VanGogh2
 
 ![](palettes/vangogh2-source.jpeg)
