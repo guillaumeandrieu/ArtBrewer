@@ -54,37 +54,118 @@ scale_color_gradientn(colors=med.brewer("Albers1"))
 
 ### Albers1
 
-![](palettes/albers1-source.jpeg)
+![](palettes/albers1-source.jpeg) 
 ![](palettes/albers1.jpeg)
+
+--- 
 
 ### Albers2
 
 ![](palettes/albers2-source.jpeg)
 ![](palettes/albers2.jpeg)
 
+--- 
+
 ### Balanced
 
 ![](palettes/balanced.jpeg)
+
+--- 
+
+### Biarritz
+
+![](palettes/biarritz.jpeg)
+
+--- 
 
 ### Corot
 
 ![](palettes/corot-source.jpeg)
 ![](palettes/corot.jpeg)
 
+--- 
+
+### Hokusai1
+
+![](palettes/hokusai1-source.jpeg)
+![](palettes/hokusai1.jpeg)
+
+--- 
+
+### Hokusai2
+
+![](palettes/hokusai2-source.jpeg)
+![](palettes/hokusai2.jpeg)
+
+--- 
+
 ### MED
 
 ![](palettes/med.jpeg)
+
+--- 
 
 ### Merz
 
 ![](palettes/merz-source.jpeg)
 ![](palettes/merz.jpeg)
 
+--- 
+
+### Munch
+
+![](palettes/munch-source.jpeg)
+![](palettes/munch.jpeg)
+
+--- 
+
+### Renoir
+
+![](palettes/renoir-source.jpeg)
+![](palettes/renoir.jpeg)
+
+--- 
+
+### Seurat
+
+![](palettes/seurat-source.jpeg)
+![](palettes/seurat.jpeg)
+
+--- 
+
+### Signac
+
+![](palettes/signac-source.jpeg)
+![](palettes/signac.jpeg)
+
+--- 
+
 ### Vallotton
 
 ![](palettes/vallotton-source.jpeg)
 ![](palettes/vallotton.jpeg)
 
+--- 
+
+### VanGogh1
+
+![](palettes/vangogh1-source.jpeg)
+![](palettes/vangogh1.jpeg)
+
+--- 
+
+### VanGogh1
+
+![](palettes/vangogh1-source.jpeg)
+![](palettes/vangogh1.jpeg)
+
+--- 
+### VanGogh2
+
+![](palettes/vangogh2-source.jpeg)
+![](palettes/vangogh2.jpeg)
+
+--- 
 
 ### Wellspring
 
