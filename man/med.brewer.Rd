@@ -2,9 +2,15 @@
 % Please edit documentation in R/MedBrewer.R
 \name{med.brewer}
 \alias{med.brewer}
-\title{MED Palette Generator}
+\title{Med Palette Generator}
 \usage{
-med.brewer(name, n, type = c("discrete", "continuous"))
+med.brewer(
+  name,
+  n,
+  type = c("discrete", "continuous"),
+  direction = c(1, -1),
+  override.order = FALSE
+)
 }
 \arguments{
 \item{name}{Name of Palette.}

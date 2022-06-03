@@ -3,7 +3,7 @@
 
 Provides a series of art-based colorful palettes.
 
-Version 1.1.1 (1/26/2022)
+Version 1.2.1 (6/03/2022)
 
 ## Install Package
 MedBrewer is now able to be downloaded through the GitLab [here](https://gitlab.com/bioinformatics-inem/r-custom-packages/MedBrewer).
@@ -19,7 +19,6 @@ And navigate to the downloaded archive.
 ## Usage
 
 The function `med.brewer` calls the palette. You can specify the number of colors to use (and interpolate colors), or choose between discrete or continuous palettes as exemplified below.
-
 It can be directly called in `ggplot2`. 
 
 ```{r}
@@ -78,6 +77,12 @@ scale_color_gradientn(colors=med.brewer("Albers1"))
 
 --- 
 
+### Colorful
+
+![](palettes/colorful.jpeg)
+
+--- 
+
 ### Corot
 
 ![](palettes/corot-source.jpeg)
@@ -99,6 +104,13 @@ scale_color_gradientn(colors=med.brewer("Albers1"))
 
 --- 
 
+### Hokusai3
+
+![](palettes/hokusai3-source.jpeg)
+![](palettes/hokusai3.jpeg)
+
+--- 
+
 ### MED
 
 ![](palettes/med.jpeg)
@@ -116,6 +128,13 @@ scale_color_gradientn(colors=med.brewer("Albers1"))
 
 ![](palettes/munch-source.jpeg)
 ![](palettes/munch.jpeg)
+
+--- 
+
+### OKeeffe
+
+![](palettes/okeeffe-source.jpeg)
+![](palettes/okeeffe.jpeg)
 
 --- 
 
@@ -153,6 +172,7 @@ scale_color_gradientn(colors=med.brewer("Albers1"))
 ![](palettes/vangogh1.jpeg)
 
 --- 
+
 ### VanGogh2
 
 ![](palettes/vangogh2-source.jpeg)
