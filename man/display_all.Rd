@@ -7,8 +7,8 @@
 display_all(
   n,
   sequential = FALSE,
-  colorblind_only = FALSE,
-  direction = 1,
+  category = c("all", "art", "wesanderson"),
+  direction = "f",
   override.order = FALSE
 )
 }
@@ -17,7 +17,7 @@ display_all(
 
 \item{sequential}{Should palettes displayed all at once, or one at a time. Default is all at once (FALSE).}
 
-\item{colorblind_only}{Should only colorblind friendly palettes be returned? Default is set to FALSE.}
+\item{category}{Allow to subset the palettes to display by categories. Some palettes are not categorized. Categories are "all", "art" or "wesanderson". Default is set to "all".}
 
 \item{direction}{Sets order of colors. Default palette is 1. If direction is -1, palette color order is reversed}
 
@@ -30,11 +30,11 @@ Function for viewing all palettes available in MedBrewer.
 }
 \examples{
 # All Palettes
-display_all(sequential = FALSE, colorblind_only = FALSE)
+display_all(sequential = FALSE, category = "all")
 
-# All Colorblind Palettes
-display_all(sequential = FALSE, colorblind_only = TRUE)
+# By category
+display_all(sequential = FALSE, category = "wesanderson")
 
 # 5 Colors of all Palettes
-display_all(5, sequential = FALSE, colorblind_only = FALSE)
+display_all(5, sequential = FALSE, category = "art")
 }

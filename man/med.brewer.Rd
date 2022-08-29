@@ -8,7 +8,7 @@ med.brewer(
   name,
   n,
   type = c("discrete", "continuous"),
-  direction = c(1, -1),
+  direction = c("f", "r"),
   override.order = FALSE
 )
 }
@@ -25,8 +25,9 @@ interpolate between colors.}
 A vector of colors.
 }
 \description{
-Colorful palettes inspired by art.
+Colorful palettes inspired by art pieces.
 Based on the work of Blake R Mills \href{https://github.com/BlakeRMills/MetBrewer}{on Github}.
+Wes Anderson palettes are inspired by the colorful vision of Wes Anderson in his movies and adapted from this \href{https://wesandersonpalettes.tumblr.com}{post}.
 }
 \examples{
 med.brewer("MED")
@@ -40,8 +41,5 @@ ggplot(data=iris, aes(x=Sepal.Length, y=Sepal.Width, color=Species)) +
 geom_point(size=2) +
 scale_color_manual(values=med.brewer("Albers2", 3))
 
-ggplot(data=iris, aes(x=Species, y=Sepal.Width, color=Sepal.Width)) +
-geom_point(size=3) +
-scale_color_gradientn(colors=med.brewer("Merz"))
 }
 \keyword{colors}
