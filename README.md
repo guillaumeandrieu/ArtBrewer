@@ -259,32 +259,32 @@ display_all(sequential = TRUE, category = "art")
 
 #### Balanced
 
-<img src="palettes/Balanced.jpeg" alt="Balanced" width="300"/>
+<img src="palettes/Balanced.jpg" alt="Balanced" width="300"/>
 
 --- 
 
 #### Biarritz
 
-<img src="palettes/Biarritz.jpeg" alt="Biarritz" width="300"/>
+<img src="palettes/Biarritz.jpg" alt="Biarritz" width="300"/>
 
 --- 
 
 #### Colorful
 *Inspired by [Fabre et al, Nature 2022](https://doi.org/10.1038/s41586-022-04785-z)*
 
-<img src="palettes/Colorful.jpeg" alt="Colorful" width="300"/>
+<img src="palettes/Colorful.jpg" alt="Colorful" width="300"/>
 
 --- 
 
 #### MED
 
-<img src="palettes/MED.jpeg" alt="MED" width="300"/>
+<img src="palettes/MED.jpg" alt="MED" width="300"/>
 
 --- 
 
 #### Wellspring
 
-<img src="palettes/Wellspring.jpeg" alt="Wellspring" width="300"/>
+<img src="palettes/Wellspring.jpg" alt="Wellspring" width="300"/>
 
 
 
