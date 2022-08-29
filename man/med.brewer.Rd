@@ -20,6 +20,12 @@ colors are automatically interpolated. If n is not provided, the length of the p
 
 \item{type}{Either "continuous" or "discrete". Use continuous if you want to automatically
 interpolate between colors.}
+
+\item{direction}{Sets order of colors. Default palette is "f" for "forward". If direction is "r" for "reverse", palette color order is reversed.}
+
+\item{override.order}{Colors are picked from palette to maximize readability and aesthetics. This means
+that colors are not always selected in sequential order from the full palette. If override.order is set to TRUE,
+colors are selected in sequential order from the full palette instead. Default is FALSE.}
 }
 \value{
 A vector of colors.
