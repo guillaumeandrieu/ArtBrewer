@@ -3,7 +3,7 @@
 
 Provides a series of art-based colorful palettes.
 
-Version 1.2.1 (6/03/2022)
+Version 1.3.0 (8/29/2022)
 
 ## Install Package
 MedBrewer is now able to be downloaded through the GitLab [here](https://gitlab.com/bioinformatics-inem/r-custom-packages/MedBrewer).
@@ -49,7 +49,16 @@ scale_color_gradientn(colors=med.brewer("Albers1"))
 ```
 ![](src/example3.jpeg)
 
+
 ## Palettes
+
+Use the `display_all` function to display the available palettes. One can use `category` to display a certain category of palettes (use `all`, `art` or `wesanderson`).
+
+```{r}
+display_all(sequential = FALSE, category = "all")
+
+display_all(sequential = TRUE, category = "art")
+```
 
 ### Albers1
 
