@@ -66,35 +66,19 @@ display_all(sequential = FALSE, category = "all")
 display_all(sequential = TRUE, category = "art")
 ```
 
-### Albers1
+### Art 
+
+#### Albers1
 
 ![](palettes/albers1-source.jpeg) 
 ![](palettes/albers1.jpeg)
 
 --- 
 
-### Albers2
+#### Albers2
 
 ![](palettes/albers2-source.jpeg)
 ![](palettes/albers2.jpeg)
-
---- 
-
-### Balanced
-
-![](palettes/balanced.jpeg)
-
---- 
-
-### Biarritz
-
-![](palettes/biarritz.jpeg)
-
---- 
-
-### Colorful
-
-![](palettes/colorful.jpeg)
 
 --- 
 
@@ -123,12 +107,6 @@ display_all(sequential = TRUE, category = "art")
 
 ![](palettes/hokusai3-source.jpeg)
 ![](palettes/hokusai3.jpeg)
-
---- 
-
-### MED
-
-![](palettes/med.jpeg)
 
 --- 
 
@@ -193,9 +171,105 @@ display_all(sequential = TRUE, category = "art")
 ![](palettes/vangogh2-source.jpeg)
 ![](palettes/vangogh2.jpeg)
 
+---
+
+### Wes Anderson
+
+#### DarjeelingLimited1
+
+![](palettes/darjeeling-limited1-source.jpg)
+
+---
+
+#### DarjeelingLimited2
+
+![](palettes/darjeeling-limited2-source.jpg)
+
+---
+
+#### FrenchDispatch
+
+![](palettes/french-dispatch-source.jpg)
+
+
+---
+
+#### GrandBudapest
+
+![](palettes/grand-budapest-hotel-source.jpg)
+
+---
+
+#### IsleOfDogs
+
+![](palettes/isle-of-dogs-source.jpg)
+
+---
+
+#### MoonriseKingdom1
+
+![](palettes/moonrise-kingdom1-source.jpg)
+
+---
+
+#### MoonriseKingdom2
+
+![](palettes/moonrise-kingdom2-source.jpg)
+
+---
+
+#### Nescaffier
+
+![](palettes/nescaffier-source.jpg)
+
+---
+
+#### RoyalTenenbaums
+
+![](palettes/royal-tenenbaums-source.jpg)
+
+---
+
+#### Zissou1
+
+![](palettes/zissou1-source.jpg)
+
+---
+
+#### Zissou2
+
+![](palettes/zissou2-source.jpg)
+
+
+---
+
+### Others
+
+#### Balanced
+
+![](palettes/balanced.jpeg)
+
 --- 
 
-### Wellspring
+#### Biarritz
+
+![](palettes/biarritz.jpeg)
+
+--- 
+
+#### Colorful
+
+![](palettes/colorful.jpeg)
+
+--- 
+
+#### MED
+
+![](palettes/med.jpeg)
+
+--- 
+
+#### Wellspring
 
 ![](palettes/wellspring.jpeg)
 

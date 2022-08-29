@@ -80,6 +80,8 @@
 
 med.brewer <- function(name, n, type = c("discrete", "continuous"), direction = c("f", "r"), override.order = FALSE) {
  
+`%notin%` <- Negate(`%in%`)
+   
  palette <- MedPalette[[name]]
  
  if (is.null(palette)|is.numeric(name)){
