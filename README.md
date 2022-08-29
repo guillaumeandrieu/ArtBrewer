@@ -1,11 +1,10 @@
-
 # MedBrewer
 
 Provides a series of art-based colorful palettes.
 
 Version 1.3.0 (8/29/2022)
 
-## Install Package
+## 1. Install Package
 MedBrewer is now able to be downloaded through the GitLab [here](https://gitlab.com/bioinformatics-inem/r-custom-packages/MedBrewer).
 
 1. Locate and download the file `MedBrewer_x.x.x.tar.gz` (the numbers indicate the version of the package).
@@ -16,10 +15,17 @@ MedBrewer is now able to be downloaded through the GitLab [here](https://gitlab.
 
 And navigate to the downloaded archive.
 
-## Usage
+## 2. Usage
+
+Use the `display_all` function to display the available palettes. One can use `category` to display a certain category of palettes (use `all`, `art` or `wesanderson`).
+
+```{r}
+display_all(sequential = FALSE, category = "all")
+
+display_all(sequential = TRUE, category = "art")
+```
 
 The function `med.brewer` calls the palette. You can specify the number of colors to use (and interpolate colors), or choose between discrete or continuous palettes as exemplified below.
-It can be directly called in `ggplot2`. 
 
 ```{r}
 library(MedBrewer)
@@ -40,7 +46,7 @@ ggplot(data=iris, aes(x=Sepal.Length, y=Sepal.Width, color=Species)) +
 geom_point(size=2) +
 scale_color_manual(values=med.brewer("Merz", 3))
 ```
-![](src/example2.jpeg)
+![](src/example2.jpeg) 
 
 ```{r}
 ggplot(data=iris, aes(x=Species, y=Sepal.Width, color=Sepal.Width)) +
@@ -50,7 +56,7 @@ scale_color_gradientn(colors=med.brewer("Albers1"))
 ![](src/example3.jpeg)
 
 
-## Palettes
+## 3. Palettes
 
 Use the `display_all` function to display the available palettes. One can use `category` to display a certain category of palettes (use `all`, `art` or `wesanderson`).
 
