@@ -62,6 +62,10 @@
 #' colors are automatically interpolated. If n is not provided, the length of the palette is used.
 #' @param type Either "continuous" or "discrete". Use continuous if you want to automatically
 #' interpolate between colors.
+#' @param direction Sets order of colors. Default palette is "f" for "forward". If direction is "r" for "reverse", palette color order is reversed.
+#' @param override.order Colors are picked from palette to maximize readability and aesthetics. This means
+ #' that colors are not always selected in sequential order from the full palette. If override.order is set to TRUE,
+ #' colors are selected in sequential order from the full palette instead. Default is FALSE.
 #' @return A vector of colors.
 #' @examples
 #' med.brewer("MED")
@@ -151,7 +155,7 @@ print.palette <- function(x, ...) {
 #' @param n Number of requested colors. If n is left blank, default palette is returned.
 #' @param category Allow to subset the palettes to display by categories. Some palettes are not categorized. Categories are "all", "art" or "wesanderson". Default is set to "all".
 #' @param sequential Should palettes displayed all at once, or one at a time. Default is all at once (FALSE).
-#' @param direction Sets order of colors. Default palette is 1. If direction is -1, palette color order is reversed
+#' @param direction Sets order of colors. Default palette is "f" for "forward". If direction is "r" for "reverse", palette color order is reversed.
 #' @param override.order Colors are picked from palette to maximize readability and aesthetics. This means
 #' that colors are not always selected in sequential order from the full palette. If override.order is set to TRUE,
 #' colors are selected in sequential order from the full palette instead. Default is FALSE.
@@ -229,12 +233,43 @@ display_all <- function(n, sequential = FALSE, category = "all", direction = "f"
          
             layout(matrix(1:N, 8, 4))
             for(i in 1:N) plot_palette(pal_names[i],n)
-      }
-      
-      layout(matrix(1,1,1))
-      par(mar = orig_pars$mar)
-      
+         }
       }
    }
+   
+   layout(matrix(1,1,1))
+   par(mar = orig_pars$mar)
 }
+
+
+#' Create palette vignettes
+#'
+#' Function for creating palettes vignettes.
+#'
+#' @examples
+#' # Create vignette
+#' create.vignette()
+#' @export
+#' @importFrom grDevices rgb
+
+create.vignette <- function(){
+   
+   orig_pars <- par()
+   par(mar = c(0.1,0.1,1,0.1))
+   
+   pal_names = names(MedPalette)
+
+   for (i in 1:length(pal_names)){
+      
+      jpeg(filename = paste0("palettes/", pal_names[i], ".jpg"), width = 900, height = 600)
+      print(med.brewer(pal_names[i]))
+      dev.off()
+      
+   }
+}
+
+
+
+   
+
  

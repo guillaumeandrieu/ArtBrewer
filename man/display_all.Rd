@@ -7,7 +7,7 @@
 display_all(
   n,
   sequential = FALSE,
-  category = c("all", "art", "wesanderson"),
+  category = "all",
   direction = "f",
   override.order = FALSE
 )
@@ -19,7 +19,7 @@ display_all(
 
 \item{category}{Allow to subset the palettes to display by categories. Some palettes are not categorized. Categories are "all", "art" or "wesanderson". Default is set to "all".}
 
-\item{direction}{Sets order of colors. Default palette is 1. If direction is -1, palette color order is reversed}
+\item{direction}{Sets order of colors. Default palette is "f" for "forward". If direction is "r" for "reverse", palette color order is reversed.}
 
 \item{override.order}{Colors are picked from palette to maximize readability and aesthetics. This means
 that colors are not always selected in sequential order from the full palette. If override.order is set to TRUE,
