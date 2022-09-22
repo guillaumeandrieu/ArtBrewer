@@ -31,7 +31,7 @@ The function `med.brewer` calls the palette. You can specify the number of color
 library(MedBrewer)
 med.brewer("MED")
 ```
-<img src="palettes/med.jpg" alt="med" width="300"/>
+<img src="palettes/MED.jpg" alt="med" width="300"/>
 
 ```{r}
 library(ggplot2)
