@@ -16,7 +16,7 @@ Version 1.3.2 (9/23/2022)
 
 MedBrewer can be installed from GitHub.
 
-```{r}
+```r
 install.packages("devtools")
 devtools::install_github("GuillaumeInALab/MedBrewer")
 ```
@@ -25,7 +25,7 @@ devtools::install_github("GuillaumeInALab/MedBrewer")
 
 Use the `display_all` function to display the available palettes. One can use `category` to display a certain category of palettes (use `all`, `art` or `wesanderson`).
 
-```{r}
+```r
 display_all(sequential = FALSE, category = "all")
 
 display_all(sequential = TRUE, category = "art")
@@ -33,13 +33,13 @@ display_all(sequential = TRUE, category = "art")
 
 The function `med.brewer` calls the palette. You can specify the number of colors to use (and interpolate colors), or choose between discrete or continuous palettes as exemplified below.
 
-```{r}
+```r
 library(MedBrewer)
 med.brewer("MED")
 ```
 <img src="palettes/MED.jpg" alt="med" width="300"/>
 
-```{r}
+```r
 library(ggplot2)
 ggplot(data=iris, aes(x=Species, y=Petal.Length, fill=Species)) +
 geom_violin() +
@@ -47,14 +47,14 @@ scale_fill_manual(values=med.brewer("Corot", 3))
 ```
 <img src="src/example1.jpeg" alt="example1" width="300"/>
 
-```{r}
+```r
 ggplot(data=iris, aes(x=Sepal.Length, y=Sepal.Width, color=Species)) +
 geom_point(size=2) +
 scale_color_manual(values=med.brewer("Merz", 3))
 ```
 <img src="src/example2.jpeg" alt="example2" width="300"/>
 
-```{r}
+```r
 ggplot(data=iris, aes(x=Species, y=Sepal.Width, color=Sepal.Width)) +
 geom_point(size=3) +
 scale_color_gradientn(colors=med.brewer("Albers1"))
@@ -67,7 +67,7 @@ scale_color_gradientn(colors=med.brewer("Albers1"))
 
 Use the `display_all` function to display the available palettes. One can use `category` to display a certain category of palettes (use `all`, `art` or `wesanderson`).
 
-```{r}
+```r
 display_all(sequential = FALSE, category = "all")
 
 display_all(sequential = TRUE, category = "art")
