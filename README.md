@@ -1,21 +1,27 @@
 # MedBrewer
 
 Provides a series of art-based colorful palettes.
+Inspired by and adapted from the work of [Blake R Mills](https://github.com/BlakeRMills/MetBrewer).
 
-Version 1.3.1 (8/29/2022)
+Version 1.3.2 (9/23/2022)
 
-## 1. Install Package
-MedBrewer is now able to be downloaded through the GitLab [here](https://gitlab.com/bioinformatics-inem/r-custom-packages/MedBrewer).
+# Content
 
-1. Locate and download the file `MedBrewer_x.x.x.tar.gz` (the numbers indicate the version of the package).
+- [Installation](#install-package)
+- [Examples](#some-examples-of-usage)
+- [Palettes](#palettes)
 
-2. In R Studio, choose `Packages>Install>Install from: Package Archive File (.tgz; .tar.gz)` 
 
-<img src="src/install-from-file.jpg" alt="install-from-file" width="400"/>
+## Install Package
 
-And navigate to the downloaded archive.
+MedBrewer can be installed from GitHub.
 
-## 2. Some examples of usage
+```{r}
+install.packages("devtools")
+devtools::install_github("GuillaumeInALab/MedBrewer")
+```
+
+## Some examples of usage
 
 Use the `display_all` function to display the available palettes. One can use `category` to display a certain category of palettes (use `all`, `art` or `wesanderson`).
 
@@ -57,8 +63,7 @@ scale_color_gradientn(colors=med.brewer("Albers1"))
 <img src="src/example3.jpeg" alt="example3" width="300"/>
 
 
-
-## 3. Palettes
+## Palettes
 
 Use the `display_all` function to display the available palettes. One can use `category` to display a certain category of palettes (use `all`, `art` or `wesanderson`).
 
@@ -67,6 +72,11 @@ display_all(sequential = FALSE, category = "all")
 
 display_all(sequential = TRUE, category = "art")
 ```
+
+### All Palettes
+
+<img src="palettes/all-palettes.jpeg" alt="all-palettes" width="700"/>
+
 
 ### Art 
 
