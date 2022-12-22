@@ -1,9 +1,10 @@
 # MedBrewer
 
-Provides a series of art-based colorful palettes.
-Inspired by and adapted from the work of [Blake R Mills](https://github.com/BlakeRMills/MetBrewer).
+Provides a series of art-based palettes for R inspired by a certain vision of colors.
 
-<img src="src/badge-version.svg" alt="release" width="75"/>
+Adapted from the work of [Blake R Mills](https://github.com/BlakeRMills/MetBrewer).
+
+<img src="src/badge-version.svg" alt="release" width="100"/>
 
 # Content
 
