@@ -3,7 +3,7 @@
 Provides a series of art-based colorful palettes.
 Inspired by and adapted from the work of [Blake R Mills](https://github.com/BlakeRMills/MetBrewer).
 
-Version 1.3.2 (9/23/2022)
+<img src="src/badge-version.svg" alt="release" width="75"/>
 
 # Content
 
@@ -82,7 +82,7 @@ display_all(sequential = TRUE, category = "art")
 
 #### Albers1
 
-<img src="palettes/albers1-source.jpeg" alt="albers1" width="300"/>
+<img src="palettes/albers1-source.jpeg" alt="albers1" width="300"/> 
 <img src="palettes/Albers1.jpg" alt="albers1" width="300"/>
 
 --- 
@@ -119,6 +119,28 @@ display_all(sequential = TRUE, category = "art")
 
 <img src="palettes/hokusai3-source.jpeg" alt="hokusai3" width="300"/>
 <img src="palettes/Hokusai3.jpg" alt="hokusai3" width="300"/>
+
+--- 
+
+### Leslie1
+
+<img src="palettes/leslie1-source.jpg" alt="Ellen's Island - Charles Leslie" width="300"/>
+<img src="palettes/Leslie1.jpg" alt="leslie1" width="300"/>
+
+--- 
+
+
+### Leslie2
+
+<img src="palettes/leslie2-source.jpeg" alt="leslie2" width="300"/>
+<img src="palettes/Leslie2.jpg" alt="leslie2" width="300"/>
+
+--- 
+
+### Monet
+
+<img src="palettes/monet-source.jpg" alt="Les Nymphéas : Reflets verts - Claude Monet" width="300"/>
+<img src="palettes/monet.jpg" alt="monet" width="300"/>
 
 --- 
 

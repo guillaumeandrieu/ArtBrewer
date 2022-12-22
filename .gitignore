@@ -6,3 +6,5 @@ src/*.o
 src/*.so
 src/*.dll
 medbrewer.Rproj
+.DS_Store
+older versions/DS_Store

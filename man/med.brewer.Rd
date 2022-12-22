@@ -31,7 +31,7 @@ colors are selected in sequential order from the full palette instead. Default i
 A vector of colors.
 }
 \description{
-Colorful palettes inspired by art pieces.
+Palettes inspired by art pieces and a certain vision of colors.
 Based on the work of Blake R Mills \href{https://github.com/BlakeRMills/MetBrewer}{on Github}.
 Wes Anderson palettes are inspired by the colorful vision of Wes Anderson in his movies and adapted from this \href{https://wesandersonpalettes.tumblr.com}{post}.
 }

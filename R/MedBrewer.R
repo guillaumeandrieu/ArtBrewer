@@ -1,4 +1,4 @@
-# MedBrewer: an art-based source of colorful palettes for R
+# MedBrewer: an art-based source of palettes for R inspired by a certain vision of colors.
 
 # Custom Palettes
 
@@ -9,6 +9,9 @@
    Hokusai1 = list(c("#deebd9", "#b7cfc4", "#2c6f9c", "#19375b", "#fcdcad", "#e3b091"), c(1,2,3,4,5,6)),
    Hokusai2 = list(c("#d8d97a", "#95c36e", "#74c8c3", "#5a97c1", "#295384", "#0a2e57"), c(4, 2, 5, 3, 1, 6)),
    Hokusai3 = list(c("#abc9c8", "#72aeb6", "#4692b0", "#2f70a1", "#134b73", "#0a3351"), c(5, 2, 4, 1, 6, 3)),
+   Leslie1 = list(c("#CEDAC2", "#F9F6CC", "#F1E0AA", "#AEBCBD", "#838578", "#704E27", "#32281C"), c(1, 2, 3, 4, 5, 6, 7)),
+   Leslie2 = list(c("#D8EBDE", "#34B8CC", "#A09790", "#732A1E", "#8FA384", "#73804B", "#3A5752", "#05060E"), c(1, 2, 3, 4, 5, 6, 7, 8)),
+   Monet = list(c("#77ABB3", "#4A7198", "#9187A9", "#E6C1CD", "#9A5558", "#5A333F", "#789984", "#3E5953"), c(1, 2, 3, 4, 5, 6, 7, 8)),
    Merz = list(c("#ccae5b", "#3a7db8", "#7ba796", "#517a7b",  "#bdbcb8", "#435658"), c(1,2,3,4,5,6)),
    Munch = list(c("#e0b583", "#e07538", "#e42400", "#729fa5", "#486b6d", "#47585a", "#949885", "#486c5e", "#38483d"),c(1,2,3,4,5,6,7,8,9)),
    OKeeffe = list(c("#fbe3c2", "#f2c88f", "#ecb27d", "#e69c6b", "#d37750", "#b9563f", "#92351e"), c(7, 1, 6, 4, 2, 5, 3)),
@@ -46,14 +49,14 @@
    RdYlBu = list(c("#92001D", "#cb1a1e", "#ee5634", "#fb9e4f", "#fdda7e", "#ffffb2", "#d9f0f6", "#9cd0e3", "#629cc6", "#3660a5", "#252383"), c(1,2,3,4,5,6,7,8,9,10,11))
  )
 
- artPalettes <- c("Albers1", "Albers2", "Corot", "Hokusai1", "Hokusai2", "Hokusai3", "Merz", "Munch", "OKeeffe", "Renoir", "Seurat", "Signac", "Vallotton", "VanGogh1", "VanGogh2")
+ artPalettes <- c("Albers1", "Albers2", "Corot", "Hokusai1", "Hokusai2", "Hokusai3", "Leslie1", "Leslie2", "Monet", "Merz", "Munch", "OKeeffe", "Renoir", "Seurat", "Signac", "Vallotton", "VanGogh1", "VanGogh2")
  wesandersonPalettes <- c("Nescaffier", "FrenchDispatch", "IsleOfDogs", "DarjeelingLimited1", "DarjeelingLimited2", "Zissou1", "Zissou2", "MoonriseKingdom1", "MoonriseKingdom2", "RoyalTenenbaums", "GrandBudapest")
 
 # Function for generating palettes
 
 #' Med Palette Generator
 #'
-#' Colorful palettes inspired by art pieces.
+#' Palettes inspired by art pieces and a certain vision of colors.
 #' Based on the work of Blake R Mills \href{https://github.com/BlakeRMills/MetBrewer}{on Github}.
 #' Wes Anderson palettes are inspired by the colorful vision of Wes Anderson in his movies and adapted from this \href{https://wesandersonpalettes.tumblr.com}{post}. 
 #'
@@ -172,7 +175,7 @@ print.palette <- function(x, ...) {
 #' @importFrom graphics rect par layout polygon
 
 
-display_all <- function(n, sequential = FALSE, category = "all", direction = "f", override.order=FALSE){
+display_all <- function(n, sequential = FALSE, category = "all", direction = "f", override.order = FALSE){
    if(category == "art"){
       N = length(artPalettes)
       pal_names = artPalettes
@@ -218,25 +221,10 @@ display_all <- function(n, sequential = FALSE, category = "all", direction = "f"
       }
    }else{
       
-      if(category == "art"){
-         
-            layout(matrix(1:N,5,3))
-            for(i in 1:N) plot_palette(pal_names[i])
-         
-      } else{
-         if(category == "wesanderson"){
-            
-            layout(matrix(c(1:N, 0), 4,3))
-            for(i in 1:N) plot_palette(pal_names[i])
-            
-         }else{
-         
-            layout(matrix(1:N, 8, 4))
-            for(i in 1:N) plot_palette(pal_names[i],n)
-         }
-      }
+      layout(matrix(c(1:N, rep(0, ((round(N/4)+1)*4)-N)), round(N/4)+1, ncol = 4, byrow = TRUE))
+      for(i in 1:N) plot_palette(pal_names[i],n)
    }
-   
+
    layout(matrix(1,1,1))
    par(mar = orig_pars$mar)
 }
@@ -267,9 +255,4 @@ create.vignette <- function(){
       
    }
 }
-
-
-
-   
-
  
