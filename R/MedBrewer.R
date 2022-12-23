@@ -6,6 +6,8 @@
    Albers1 =  list(c("#eeb5bb", "#a07f90", "#7fab88", "#d081ba", "#ce3d4e", "#f99480", "#d3a663", "#ecc373"), c(1,2,3,4,5,6,7,8)),
    Albers2 = list(c("#508082", "#09455d", "#2e5542", "#1d342a", "#a75c18", "#a13020", "#d3b97c", "#caa264"), c(1,2,3,4,5,6,7,8)),
    Corot = list(c("#dee4f4", "#88afb4", "#a9be93", "#647553", "#487439", "#2b3b31"), c(1,2,3,4,5,6)),
+   Edelfelt1 = list(c("#E8DAC4", "#9C7255", "#CAC5C1", "#535456", "#A98C69", "#513915"), c(1,2,3,4,5,6)),
+   Edelfelt2 = list(c("#CBD5CC", "#73958D", "#D4BFB9", "#BD515E", "#A08F94", "#4A4037"), c(1,2,3,4,5,6)),
    Hokusai1 = list(c("#deebd9", "#b7cfc4", "#2c6f9c", "#19375b", "#fcdcad", "#e3b091"), c(1,2,3,4,5,6)),
    Hokusai2 = list(c("#d8d97a", "#95c36e", "#74c8c3", "#5a97c1", "#295384", "#0a2e57"), c(4, 2, 5, 3, 1, 6)),
    Hokusai3 = list(c("#abc9c8", "#72aeb6", "#4692b0", "#2f70a1", "#134b73", "#0a3351"), c(5, 2, 4, 1, 6, 3)),
@@ -49,7 +51,7 @@
    RdYlBu = list(c("#92001D", "#cb1a1e", "#ee5634", "#fb9e4f", "#fdda7e", "#ffffb2", "#d9f0f6", "#9cd0e3", "#629cc6", "#3660a5", "#252383"), c(1,2,3,4,5,6,7,8,9,10,11))
  )
 
- artPalettes <- c("Albers1", "Albers2", "Corot", "Hokusai1", "Hokusai2", "Hokusai3", "Leslie1", "Leslie2", "Monet", "Merz", "Munch", "OKeeffe", "Renoir", "Seurat", "Signac", "Vallotton", "VanGogh1", "VanGogh2")
+ artPalettes <- c("Albers1", "Albers2", "Corot", "Edelfelt1", "Edelfelt2", "Hokusai1", "Hokusai2", "Hokusai3", "Leslie1", "Leslie2", "Monet", "Merz", "Munch", "OKeeffe", "Renoir", "Seurat", "Signac", "Vallotton", "VanGogh1", "VanGogh2")
  wesandersonPalettes <- c("Nescaffier", "FrenchDispatch", "IsleOfDogs", "DarjeelingLimited1", "DarjeelingLimited2", "Zissou1", "Zissou2", "MoonriseKingdom1", "MoonriseKingdom2", "RoyalTenenbaums", "GrandBudapest")
 
 # Function for generating palettes
@@ -146,7 +148,7 @@ print.palette <- function(x, ...) {
  image(1:n, 1, as.matrix(1:n), col = x,
        ylab = "", xaxt = "n", yaxt = "n", bty = "n")
  
- rect(0, 0.92, n + 1, 1.08, col = rgb(1, 1, 1, 0.8), border = NA)
+rect(0, 0.92, n + 1, 1.08, col = rgb(1, 1, 1, 0.8), border = NA)
  text((n + 1) / 2, 1, labels = attr(x, "name"), cex = 2.5, family = "serif")
 }
 
@@ -175,6 +177,8 @@ print.palette <- function(x, ...) {
 #' @importFrom graphics rect par layout polygon
 
 
+
+
 display_all <- function(n, sequential = FALSE, category = "all", direction = "f", override.order = FALSE){
    if(category == "art"){
       N = length(artPalettes)
@@ -197,7 +201,7 @@ display_all <- function(n, sequential = FALSE, category = "all", direction = "f"
            ylim = c(0,1),xlim=c(0,nn), main = name)
       for(j in 1:nn){
          polygon(x = c(j-1,j-1,j,j),
-                 y = c(0,1,1,0),
+                 y = c(0,1,1,0), 
                  border = NA,
                  col = med.brewer(name, nn, direction= direction,override.order=override.order)[j])
       }
@@ -245,6 +249,7 @@ create.vignette <- function(){
    orig_pars <- par()
    par(mar = c(0.1,0.1,1,0.1))
    
+   N = length(MedPalette)
    pal_names = names(MedPalette)
 
    for (i in 1:length(pal_names)){
@@ -252,7 +257,6 @@ create.vignette <- function(){
       jpeg(filename = paste0("palettes/", pal_names[i], ".jpg"), width = 900, height = 600)
       print(med.brewer(pal_names[i]))
       dev.off()
-      
    }
 }
  

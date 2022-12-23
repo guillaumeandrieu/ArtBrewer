@@ -83,8 +83,7 @@ display_all(sequential = TRUE, category = "art")
 
 #### Albers1
 
-<img src="palettes/albers1-source.jpeg" alt="albers1" width="300"/> 
-<img src="palettes/Albers1.jpg" alt="albers1" width="300"/>
+<img src="palettes/albers1-source.jpeg" alt="albers1" width="300"/> <img src="palettes/Albers1.jpg" alt="albers1" width="300"/>
 
 --- 
 
@@ -99,6 +98,21 @@ display_all(sequential = TRUE, category = "art")
 
 <img src="palettes/corot-source.jpeg" alt="corot" width="300"/>
 <img src="palettes/Corot.jpg" alt="corot" width="300"/>
+
+--- 
+
+### Edelfelt1
+
+<img src="palettes/edelfelt1-source.jpg" alt="corot" width="300"/>
+<img src="palettes/Edelfelt1.jpg" alt="Boys Playing on the Shore - Edelfelt" width="300"/>
+
+--- 
+
+
+### Edelfelt2
+
+<img src="palettes/edelfelt2-source.jpg" alt="corot" width="300"/>
+<img src="palettes/Edelfelt2.jpg" alt="Under the Birches - Edelfelt" width="300"/>
 
 --- 
 
