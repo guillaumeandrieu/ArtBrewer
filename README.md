@@ -140,8 +140,8 @@ display_all(sequential = TRUE, category = "art")
 
 ### Monet
 
-<img src="palettes/monet-source.jpg" alt="Les Nymphéas (Reflets verts) - Claude Monet" width="300"/>
-<img src="palettes/monet.jpg" alt="monet" width="300"/>
+<img src="palettes/monet-source.jpg" alt="Les Nymphéas : Reflets verts - Claude Monet" width="300"/>
+<img src="palettes/Monet.jpg" alt="monet" width="300"/>
 
 --- 
 
