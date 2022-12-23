@@ -2,7 +2,7 @@
 
 Provides a series of art-based palettes for R inspired by a certain vision of colors.
 
-Adapted from the work of [Blake R Mills](https://github.com/BlakeRMills/MetBrewer).
+*Adapted from the work of [Blake R Mills](https://github.com/BlakeRMills/MetBrewer).*
 
 <img src="src/badge-version.svg" alt="release" width="100"/>
 
@@ -140,7 +140,7 @@ display_all(sequential = TRUE, category = "art")
 
 ### Monet
 
-<img src="palettes/monet-source.jpg" alt="Les Nymphéas : Reflets verts - Claude Monet" width="300"/>
+<img src="palettes/monet-source.jpg" alt="Les Nymphéas (Reflets verts) - Claude Monet" width="300"/>
 <img src="palettes/monet.jpg" alt="monet" width="300"/>
 
 --- 
