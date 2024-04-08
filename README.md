@@ -211,7 +211,7 @@ display_all(sequential = TRUE, category = "art")
 
 ### Seurat2
 
-<img src="palettes/seurat2-source.jpeg" alt="Le cirque - Georges Seurat" width="300"/>
+<img src="palettes/seurat2-source.jpg" alt="Le cirque - Georges Seurat" width="300"/>
 <img src="palettes/Seurat2.jpg" alt="seurat" width="300"/>
 
 --- 
