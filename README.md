@@ -1,4 +1,4 @@
-# MedBrewer
+# ArtBrewer
 
 Provides a series of art-based palettes for R inspired by a certain vision of colors.
 
@@ -15,11 +15,11 @@ Provides a series of art-based palettes for R inspired by a certain vision of co
 
 ## Install Package
 
-MedBrewer can be installed from GitHub.
+ArtBrewer can be installed from GitHub.
 
 ```r
 install.packages("devtools")
-devtools::install_github("GuillaumeInALab/MedBrewer")
+devtools::install_github("GuillaumeInALab/ArtBrewer")
 ```
 
 ## Some examples of usage
@@ -32,11 +32,11 @@ display_all(sequential = FALSE, category = "all")
 display_all(sequential = TRUE, category = "art")
 ```
 
-The function `med.brewer` calls the palette. You can specify the number of colors to use (and interpolate colors), or choose between discrete or continuous palettes as exemplified below.
+The function `art.brewer` calls the palette. You can specify the number of colors to use (and interpolate colors), or choose between discrete or continuous palettes as exemplified below.
 
 ```r
-library(MedBrewer)
-med.brewer("MED")
+library(ArtBrewer)
+art.brewer("MED")
 ```
 <img src="palettes/MED.jpg" alt="med" width="300"/>
 
@@ -44,21 +44,21 @@ med.brewer("MED")
 library(ggplot2)
 ggplot(data=iris, aes(x=Species, y=Petal.Length, fill=Species)) +
 geom_violin() +
-scale_fill_manual(values=med.brewer("Corot", 3))
+scale_fill_manual(values=art.brewer("Corot", 3))
 ```
 <img src="src/example1.jpeg" alt="example1" width="300"/>
 
 ```r
 ggplot(data=iris, aes(x=Sepal.Length, y=Sepal.Width, color=Species)) +
 geom_point(size=2) +
-scale_color_manual(values=med.brewer("Merz", 3))
+scale_color_manual(values=art.brewer("Merz", 3))
 ```
 <img src="src/example2.jpeg" alt="example2" width="300"/>
 
 ```r
 ggplot(data=iris, aes(x=Species, y=Sepal.Width, color=Sepal.Width)) +
 geom_point(size=3) +
-scale_color_gradientn(colors=med.brewer("Albers1"))
+scale_color_gradientn(colors=art.brewer("Albers1"))
 ```
 
 <img src="src/example3.jpeg" alt="example3" width="300"/>

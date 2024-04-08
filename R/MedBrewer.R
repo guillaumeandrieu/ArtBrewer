@@ -1,8 +1,8 @@
-# MedBrewer: an art-based source of palettes for R inspired by a certain vision of colors.
+# ArtBrewer: an art-based source of palettes for R inspired by a certain vision of colors.
 
 # Custom Palettes
 
- MedPalette <- list(
+ArtPalette <- list(
    Albers1 =  list(c("#eeb5bb", "#a07f90", "#7fab88", "#d081ba", "#ce3d4e", "#f99480", "#d3a663", "#ecc373"), c(1,2,3,4,5,6,7,8)),
    Albers2 = list(c("#508082", "#09455d", "#2e5542", "#1d342a", "#a75c18", "#a13020", "#d3b97c", "#caa264"), c(1,2,3,4,5,6,7,8)),
    Corot = list(c("#dee4f4", "#88afb4", "#a9be93", "#647553", "#487439", "#2b3b31"), c(1,2,3,4,5,6)),
@@ -56,7 +56,7 @@
 
 # Function for generating palettes
 
-#' Med Palette Generator
+#' Art Palette Generator
 #'
 #' Palettes inspired by art pieces and a certain vision of colors.
 #' Based on the work of Blake R Mills \href{https://github.com/BlakeRMills/MetBrewer}{on Github}.
@@ -73,25 +73,25 @@
  #' colors are selected in sequential order from the full palette instead. Default is FALSE.
 #' @return A vector of colors.
 #' @examples
-#' med.brewer("MED")
+#' art.brewer("MED")
 #'
 #' library(ggplot2)
 #' ggplot(data=iris, aes(x=Species, y=Petal.Length, fill=Species)) +
 #' geom_violin() +
-#' scale_fill_manual(values=med.brewer("Vallotton", 3))
+#' scale_fill_manual(values=art.brewer("Vallotton", 3))
 #'
 #' ggplot(data=iris, aes(x=Sepal.Length, y=Sepal.Width, color=Species)) +
 #' geom_point(size=2) +
-#' scale_color_manual(values=med.brewer("Albers2", 3))
+#' scale_color_manual(values=art.brewer("Albers2", 3))
 #'
 #' @keywords colors
 #' @export
 
-med.brewer <- function(name, n, type = c("discrete", "continuous"), direction = c("f", "r"), override.order = FALSE) {
+art.brewerart.brewer <- function(name, n, type = c("discrete", "continuous"), direction = c("f", "r"), override.order = FALSE) {
  
 `%notin%` <- Negate(`%in%`)
    
- palette <- MedPalette[[name]]
+ palette <- ArtPalette[[name]]
  
  if (is.null(palette)|is.numeric(name)){
   stop("Palette does not exist...yet!")
@@ -187,8 +187,8 @@ display_all <- function(n, sequential = FALSE, category = "all", direction = "f"
       N = length(wesandersonPalettes)
       pal_names = wesandersonPalettes
    }else{
-      N = length(MedPalette)
-      pal_names = names(MedPalette)
+      N = length(ArtPalette)
+      pal_names = names(ArtPalette)
    }
    }
    
@@ -196,14 +196,14 @@ display_all <- function(n, sequential = FALSE, category = "all", direction = "f"
    
    plot_palette = function(name,n, N){
       par(mar = c(0.1,0.1,1,0.1))
-      nn = ifelse(missing(n), length(med.brewer(name)), n)
+      nn = ifelse(missing(n), length(art.brewer(name)), n)
       plot(0,type='n',bty='n',xaxt='n',yaxt='n',xlab='',ylab='',
            ylim = c(0,1),xlim=c(0,nn), main = name)
       for(j in 1:nn){
          polygon(x = c(j-1,j-1,j,j),
                  y = c(0,1,1,0), 
                  border = NA,
-                 col = med.brewer(name, nn, direction= direction,override.order=override.order)[j])
+                 col = art.brewer(name, nn, direction= direction,override.order=override.order)[j])
       }
    }
    
@@ -250,12 +250,12 @@ create.vignette <- function(){
    par(mar = c(0.1,0.1,1,0.1))
    
    N = length(MedPalette)
-   pal_names = names(MedPalette)
+   pal_names = names(ArtPalette)
 
    for (i in 1:length(pal_names)){
       
       jpeg(filename = paste0("palettes/", pal_names[i], ".jpg"), width = 900, height = 600)
-      print(med.brewer(pal_names[i]))
+      print(art.brewer(pal_names[i]))
       dev.off()
    }
 }
