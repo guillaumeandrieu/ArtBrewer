@@ -152,6 +152,20 @@ display_all(sequential = TRUE, category = "art")
 
 --- 
 
+### Matisse1
+
+<img src="palettes/matisse1-source.jpg" alt="Zorah sur la terrasse (1912-1913) - Henri Matisse" width="300"/>
+<img src="palettes/Matisse1.jpg" alt="monet" width="300"/>
+
+--- 
+
+### Matisse2
+
+<img src="palettes/matisse2-source.jpg" alt="La vue de la fenêtre (1912) - Henri Matisse" width="300"/>
+<img src="palettes/Matisse2.jpg" alt="monet" width="300"/>
+
+---
+
 ### Monet
 
 <img src="palettes/monet-source.jpg" alt="Les Nymphéas : Reflets verts - Claude Monet" width="300"/>
@@ -195,13 +209,25 @@ display_all(sequential = TRUE, category = "art")
 
 --- 
 
+### Seurat2
+
+<img src="palettes/seurat2-source.jpeg" alt="Le cirque - Georges Seurat" width="300"/>
+<img src="palettes/Seurat2.jpg" alt="seurat" width="300"/>
+
+--- 
+
 ### Signac
 
 <img src="palettes/signac-source.jpeg" alt="signac" width="300"/>
 <img src="palettes/Signac.jpg" alt="signac" width="300"/>
 
 --- 
+### Signac2
 
+<img src="palettes/signac2-source.jpeg" alt="Femmes au puits (1892) - Paul Signac" width="300"/>
+<img src="palettes/Signac2.jpg" alt="signac" width="300"/>
+
+--- 
 ### Vallotton
 
 <img src="palettes/vallotton-source.jpeg" alt="vallotton" width="300"/>

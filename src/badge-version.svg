@@ -1,8 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 90 20" style="enable-background:new 0 0 90 20;" xml:space="preserve">
-<style type="text/css">
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 90 20"
+   style="enable-background:new 0 0 90 20;"
+   xml:space="preserve"
+   sodipodi:docname="badge-version.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs9" /><sodipodi:namedview
+   id="namedview9"
+   pagecolor="#ffffff"
+   bordercolor="#999999"
+   borderopacity="1"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="5.0666667"
+   inkscape:cx="45"
+   inkscape:cy="9.9671053"
+   inkscape:window-width="1392"
+   inkscape:window-height="1220"
+   inkscape:window-x="0"
+   inkscape:window-y="25"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="g9" />
+<style
+   type="text/css"
+   id="style1">
 	.st0{clip-path:url(#SVGID_00000122697499121770405140000018336267561703614906_);}
 	.st1{fill:#555555;}
 	.st2{fill:#007EC6;}
@@ -14,36 +48,130 @@
 	.st8{font-size:11px;}
 	.st9{fill:#FFFFFF;}
 </style>
-<g>
-	<defs>
-		<path id="SVGID_1_" d="M3,0h84c1.7,0,3,1.3,3,3v14c0,1.7-1.3,3-3,3H3c-1.7,0-3-1.3-3-3V3C0,1.3,1.3,0,3,0z"/>
+<g
+   id="g4">
+	<defs
+   id="defs1">
+		<path
+   id="SVGID_1_"
+   d="M3,0h84c1.7,0,3,1.3,3,3v14c0,1.7-1.3,3-3,3H3c-1.7,0-3-1.3-3-3V3C0,1.3,1.3,0,3,0z" />
 	</defs>
-	<clipPath id="SVGID_00000143596950684331606920000004182512755814022844_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	<clipPath
+   id="SVGID_00000143596950684331606920000004182512755814022844_">
+		<use
+   xlink:href="#SVGID_1_"
+   style="overflow:visible;"
+   id="use1" />
 	</clipPath>
-	<g style="clip-path:url(#SVGID_00000143596950684331606920000004182512755814022844_);">
-		<rect class="st1" width="51" height="20"/>
-		<rect x="51" class="st2" width="39" height="20"/>
+	<g
+   style="clip-path:url(#SVGID_00000143596950684331606920000004182512755814022844_);"
+   clip-path="url(#SVGID_00000143596950684331606920000004182512755814022844_)"
+   id="g3">
+		<rect
+   class="st1"
+   width="51"
+   height="20"
+   id="rect1" />
+		<rect
+   x="51"
+   class="st2"
+   width="39"
+   height="20"
+   id="rect2" />
 		
-			<linearGradient id="SVGID_00000064326667844048112580000012006783447482120605_" gradientUnits="userSpaceOnUse" x1="-345.6111" y1="302.25" x2="-345.6111" y2="301.25" gradientTransform="matrix(90 0 0 -20 31150 6045)">
-			<stop  offset="0" style="stop-color:#BBBBBB;stop-opacity:0.1"/>
-			<stop  offset="1" style="stop-color:#000000;stop-opacity:0.1"/>
+			<linearGradient
+   id="SVGID_00000064326667844048112580000012006783447482120605_"
+   gradientUnits="userSpaceOnUse"
+   x1="-345.6111"
+   y1="302.25"
+   x2="-345.6111"
+   y2="301.25"
+   gradientTransform="matrix(90 0 0 -20 31150 6045)">
+			<stop
+   offset="0"
+   style="stop-color:#BBBBBB;stop-opacity:0.1"
+   id="stop2" />
+			<stop
+   offset="1"
+   style="stop-color:#000000;stop-opacity:0.1"
+   id="stop3" />
 		</linearGradient>
-		<rect style="fill:url(#SVGID_00000064326667844048112580000012006783447482120605_);" width="90" height="20"/>
+		<rect
+   style="fill:url(#SVGID_00000064326667844048112580000012006783447482120605_);"
+   width="90"
+   height="20"
+   id="rect3" />
 	</g>
 </g>
-<g text-rendering="geometricPrecision">
-	<g class="st4">
-		<rect x="6.5" y="5.5" class="st5" width="41" height="12.8"/>
-		<text transform="matrix(1 0 0 1 6.4766 15)"><tspan x="0" y="0" class="st6 st7 st8">versio</tspan><tspan x="34" y="0" class="st6 st7 st8">n</tspan></text>
+<g
+   text-rendering="geometricPrecision"
+   id="g9">
+	<g
+   class="st4"
+   id="g5">
+		<rect
+   x="6.5"
+   y="5.5"
+   class="st5"
+   width="41"
+   height="12.8"
+   id="rect4" />
+		<text
+   transform="matrix(1 0 0 1 6.4766 15)"
+   id="text5"><tspan
+     x="0"
+     y="0"
+     class="st6 st7 st8"
+     id="tspan4">versio</tspan><tspan
+     x="34"
+     y="0"
+     class="st6 st7 st8"
+     id="tspan5">n</tspan></text>
 	</g>
-	<rect x="6.5" y="4.5" class="st5" width="41" height="12.8"/>
-	<text transform="matrix(1 0 0 1 6.4766 14)" class="st4"><tspan x="0" y="0" class="st9 st7 st8">versio</tspan><tspan x="34" y="0" class="st9 st7 st8">n</tspan></text>
-	<g class="st4">
-		<rect x="55" y="5.5" class="st5" width="29" height="12.8"/>
-		<text transform="matrix(1 0 0 1 55.0088 15)" class="st6 st7 st8">1.3.3</text>
+	<rect
+   x="6.5"
+   y="4.5"
+   class="st5"
+   width="41"
+   height="12.8"
+   id="rect5" />
+	<text
+   transform="matrix(1 0 0 1 6.4766 14)"
+   class="st4"
+   id="text7"><tspan
+     x="0"
+     y="0"
+     class="st9 st7 st8"
+     id="tspan6">versio</tspan><tspan
+     x="34"
+     y="0"
+     class="st9 st7 st8"
+     id="tspan7">n</tspan></text>
+	<g
+   class="st4"
+   id="g8">
+		<rect
+   x="55"
+   y="5.5"
+   class="st5"
+   width="29"
+   height="12.8"
+   id="rect7" />
+		<text
+   transform="translate(55.0088,15)"
+   class="st6 st7 st8"
+   id="text8">1.4.0</text>
 	</g>
-	<rect x="55" y="4.5" class="st5" width="29" height="12.8"/>
-	<text transform="matrix(1 0 0 1 55.0088 14)" class="st9 st7 st8">1.3.3</text>
+	<rect
+   x="55"
+   y="4.5"
+   class="st5"
+   width="29"
+   height="12.8"
+   id="rect8" />
+	<text
+   transform="translate(55.0088,14)"
+   class="st9 st7 st8"
+   id="text9">1.4.0</text>
 </g>
 </svg>
