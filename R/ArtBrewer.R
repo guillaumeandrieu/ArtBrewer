@@ -161,7 +161,7 @@ rect(0, 0.92, n + 1, 1.08, col = rgb(1, 1, 1, 0.8), border = NA)
 
 #' View all Palettes available
 #'
-#' Function for viewing all palettes available in MedBrewer.
+#' Function for viewing all palettes available in ArtBrewer.
 #'
 #' @param n Number of requested colors. If n is left blank, default palette is returned.
 #' @param category Allow to subset the palettes to display by categories. Some palettes are not categorized. Categories are "all", "art" or "wesanderson". Default is set to "all".
