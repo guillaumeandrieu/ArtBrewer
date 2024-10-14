@@ -19,7 +19,7 @@ ArtBrewer can be installed from GitHub.
 
 ```r
 install.packages("devtools")
-devtools::install_github("GuillaumeInALab/ArtBrewer")
+devtools::install_github("guillaumeandrieu/ArtBrewer")
 ```
 
 ## Some examples of usage
