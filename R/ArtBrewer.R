@@ -48,6 +48,7 @@ ArtPalette <- list(
    GrandBudapest = list(c("#60465d", "#954a64", "#af6983", "#f4769a", "#fb8bb3", "#f7a7bc", "#f3bbb7", "#a5afc1", "#427895", "#977596"), c(1,2,3,4,5,6,7,8,9,10)),
 
    # Others
+	Unicorn = list(c("#EEBB60", "#D83D42", "#FFC7C6", "#00D1EE", "#0089A8", "#ECE100", "#F19B00", "#00BD5F", "#007553", "#7A688F"), c(1,2,3,4,5,6,7,8,9,10)),
    Balanced = list(c("#c4aeb1","#e3c1c0","#d29381","#ccb97e","#6667ab","#86a293","#884c5e","#9d848e"), c(1,2,3,4,5,6,7,8)),
    Biarritz = list(c("#93281c", "#f2bb37", "#74b9a3", "#649e8d"),c(1,2,3,4)),
    Colorful = list(c("#8db600", "#0067a4", "#008755", "#bd0031", "#f89279", "#f38400", "#dcd200", "#f3c300", "#872c16", "#865592", "#5f4e96", "#c2b180", "#f6a600", "#a0c9f0", "#b3446c", "#848482", "#e68fac"), c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17)),
@@ -58,7 +59,7 @@ ArtPalette <- list(
 
  artPalettes <- c("Albers1", "Albers2", "Corot", "Edelfelt1", "Edelfelt2", "Hokusai1", "Hokusai2", "Hokusai3", "Leslie1", "Leslie2", "Monet", "Merz", "Munch", "OKeeffe", "Renoir", "Seurat", "Signac", "Vallotton", "VanGogh1", "VanGogh2")
  wesandersonPalettes <- c("Nescaffier", "FrenchDispatch", "IsleOfDogs", "DarjeelingLimited1", "DarjeelingLimited2", "Zissou1", "Zissou2", "MoonriseKingdom1", "MoonriseKingdom2", "RoyalTenenbaums", "GrandBudapest")
- singlecellPalettes <- c("Colorful", "Seurat", "Seurat2", "Signac", "Signac2")
+ singlecellPalettes <- c("Colorful", "Seurat", "Seurat2", "Signac", "Signac2", "Unicorn")
 
 # Function for generating palettes
 
@@ -79,7 +80,7 @@ ArtPalette <- list(
  #' colors are selected in sequential order from the full palette instead. Default is FALSE.
 #' @return A vector of colors.
 #' @examples
-#' art.brewer("MED")
+#' art.brewer("Unicorn")
 #'
 #' library(ggplot2)
 #' ggplot(data=iris, aes(x=Species, y=Petal.Length, fill=Species)) +
