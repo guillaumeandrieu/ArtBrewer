@@ -38,7 +38,7 @@ The function `art.brewer` calls the palette. You can specify the number of color
 library(ArtBrewer)
 art.brewer("Unicorn")
 ```
-<img src="palettes/unicorn.jpg" alt="med" width="300"/>
+<img src="palettes/unicorn.jpg" alt="unicorn" width="300"/>
 
 ```r
 library(ggplot2)
@@ -224,7 +224,7 @@ display_all(sequential = TRUE, category = "art")
 --- 
 ### Signac2
 
-<img src="palettes/signac2-source.jpeg" alt="Femmes au puits (1892) - Paul Signac" width="300"/>
+<img src="palettes/signac2-source.jpg" alt="Femmes au puits (1892) - Paul Signac" width="300"/>
 <img src="palettes/Signac2.jpg" alt="signac" width="300"/>
 
 --- 
