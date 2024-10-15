@@ -1,6 +1,6 @@
 Package: ArtBrewer
 Title: An art-based source of palettes for R inspired by a certain vision of colors.
-Version: 1.4.0
+Version: 1.5.0
 Authors@R: 
      person(given = "Guillaume P.",
            family = "Andrieu",
