@@ -36,9 +36,9 @@ The function `art.brewer` calls the palette. You can specify the number of color
 
 ```r
 library(ArtBrewer)
-art.brewer("MED")
+art.brewer("Unicorn")
 ```
-<img src="palettes/MED.jpg" alt="med" width="300"/>
+<img src="palettes/unicorn.jpg" alt="med" width="300"/>
 
 ```r
 library(ggplot2)
@@ -329,6 +329,13 @@ display_all(sequential = TRUE, category = "art")
 ---
 
 ### Others
+
+#### Unicorn
+
+<img src="palettes/unicorn-source.jpg" alt="unicorn" width="300"/>
+<img src="palettes/Unicorn.jpg" alt="Unicorn" width="300"/>
+
+---
 
 #### Balanced
 
