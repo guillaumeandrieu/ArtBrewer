@@ -36,7 +36,7 @@ Based on the work of Blake R Mills \href{https://github.com/BlakeRMills/MetBrewe
 Wes Anderson palettes are inspired by the colorful vision of Wes Anderson in his movies and adapted from this \href{https://wesandersonpalettes.tumblr.com}{post}.
 }
 \examples{
-art.brewer("MED")
+art.brewer("Unicorn")
 
 library(ggplot2)
 ggplot(data=iris, aes(x=Species, y=Petal.Length, fill=Species)) +
