@@ -211,7 +211,7 @@ display_all(sequential = TRUE, category = "art")
 
 ### Seurat2
 
-<img src="palettes/seurat2-source.jpg" alt="Le cirque - Georges Seurat" width="300"/>
+<img src="palettes/seurat2-source.jpeg" alt="Le cirque - Georges Seurat" width="300"/>
 <img src="palettes/Seurat2.jpg" alt="seurat" width="300"/>
 
 --- 
@@ -222,12 +222,14 @@ display_all(sequential = TRUE, category = "art")
 <img src="palettes/Signac.jpg" alt="signac" width="300"/>
 
 --- 
+
 ### Signac2
 
 <img src="palettes/signac2-source.jpg" alt="Femmes au puits (1892) - Paul Signac" width="300"/>
 <img src="palettes/Signac2.jpg" alt="signac" width="300"/>
 
 --- 
+
 ### Vallotton
 
 <img src="palettes/vallotton-source.jpeg" alt="vallotton" width="300"/>

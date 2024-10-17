@@ -264,6 +264,10 @@ create.vignette <- function(){
       jpeg(filename = paste0("palettes/", pal_names[i], ".jpg"), width = 900, height = 600)
       print(art.brewer(pal_names[i]))
       dev.off()
+      
+      jpeg(filename = "palettes/all-palettes.jpeg", width = 900, height = 1200)
+      display_all()
+      dev.off()
    }
 }
  
