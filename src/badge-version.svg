@@ -27,11 +27,11 @@
    inkscape:deskcolor="#d1d1d1"
    inkscape:zoom="5.0666667"
    inkscape:cx="45"
-   inkscape:cy="9.9671053"
+   inkscape:cy="9.9671052"
    inkscape:window-width="1392"
-   inkscape:window-height="1220"
+   inkscape:window-height="1188"
    inkscape:window-x="0"
-   inkscape:window-y="25"
+   inkscape:window-y="44"
    inkscape:window-maximized="0"
    inkscape:current-layer="g9" />
 <style
@@ -160,7 +160,7 @@
 		<text
    transform="translate(55.0088,15)"
    class="st6 st7 st8"
-   id="text8">1.4.0</text>
+   id="text8">1.5.0</text>
 	</g>
 	<rect
    x="55"
@@ -172,6 +172,6 @@
 	<text
    transform="translate(55.0088,14)"
    class="st9 st7 st8"
-   id="text9">1.4.0</text>
+   id="text9">1.5.0</text>
 </g>
 </svg>
