@@ -1,5 +1,5 @@
 Package: ArtBrewer
-Title: An art-based source of palettes for R inspired by a certain vision of colors.
+Title: An Art-Based Source Of Palettes For R Inspired By A Certain Vision Of Colors
 Version: 1.5.1
 Authors@R: 
      person(given = "Guillaume P.",
@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "guillaume.andrieu@inserm.fr",
            comment = c(ORCID = "0000-0003-0289-4952"))
-Description: Provides a series of palettes based on curated pieces of art and inspired by a certain vision of colors.
+Description: Provides a series of palettes based on curated pieces of art and inspired by a certain vision of colors
 License: `use_gpl3_license()` 
 Encoding: UTF-8
 LazyData: true

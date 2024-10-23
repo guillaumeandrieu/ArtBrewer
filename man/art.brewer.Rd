@@ -45,7 +45,7 @@ scale_fill_manual(values=art.brewer("Vallotton", 3))
 
 ggplot(data=iris, aes(x=Sepal.Length, y=Sepal.Width, color=Species)) +
 geom_point(size=2) +
-scale_color_manual(values=art.brewer("Albers2", 3))
+scale_color_manual(values=art.brewer("Vibrant", 3))
 
 }
 \keyword{colors}
