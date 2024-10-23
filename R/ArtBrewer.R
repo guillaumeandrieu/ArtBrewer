@@ -96,6 +96,7 @@ ArtPalette <- list(
 #' @keywords colors
 #' @export
 
+
 art.brewer <- function(name, n, type = c("discrete", "continuous"), direction = c("f", "r"), override.order = FALSE) {
  
 `%notin%` <- Negate(`%in%`)
@@ -251,7 +252,7 @@ display_all <- function(n, sequential = FALSE, category = "all", direction = "f"
 #' # Create vignette
 #' create.vignette()
 #' @export
-#' @importFrom grDevices rgb
+#' @importFrom grDevices rgb jpeg dev.off
 
 create.vignette <- function(){
    
@@ -262,14 +263,10 @@ create.vignette <- function(){
    pal_names = names(ArtPalette)
 
    for (i in 1:length(pal_names)){
-      
-      jpeg(filename = paste0("palettes/", pal_names[i], ".jpg"), width = 900, height = 600)
+
       print(art.brewer(pal_names[i]))
-      dev.off()
-      
-      jpeg(filename = "palettes/all-palettes.jpeg", width = 900, height = 1200)
       display_all()
-      dev.off()
+      
    }
 }
  
