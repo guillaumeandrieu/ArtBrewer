@@ -4,7 +4,7 @@ Provides a series of art-based palettes for R inspired by a certain vision of co
 
 *Adapted from the work of [Blake R Mills](https://github.com/BlakeRMills/MetBrewer).*
 
-<img src="src/badge-version.svg" alt="release" width="100"/>
+<img src="www/badge-version.svg" alt="release" width="100"/>
 
 # Content
 
@@ -46,22 +46,22 @@ ggplot(data=iris, aes(x=Species, y=Petal.Length, fill=Species)) +
 geom_violin() +
 scale_fill_manual(values=art.brewer("Corot", 3))
 ```
-<img src="src/example1.jpeg" alt="example1" width="300"/>
+<img src="www/example1.jpeg" alt="example1" width="300"/>
 
 ```r
 ggplot(data=iris, aes(x=Sepal.Length, y=Sepal.Width, color=Species)) +
 geom_point(size=2) +
 scale_color_manual(values=art.brewer("Merz", 3))
 ```
-<img src="src/example2.jpeg" alt="example2" width="300"/>
+<img src="www/example2.jpeg" alt="example2" width="300"/>
 
 ```r
 ggplot(data=iris, aes(x=Species, y=Sepal.Width, color=Sepal.Width)) +
 geom_point(size=3) +
-scale_color_gradientn(colors=art.brewer("Albers1"))
+scale_color_gradientn(colors=art.brewer("Vibrant"))
 ```
 
-<img src="src/example3.jpeg" alt="example3" width="300"/>
+<img src="www/example3.jpeg" alt="example3" width="300"/>
 
 
 ## Palettes
@@ -338,6 +338,12 @@ display_all(sequential = TRUE, category = "art")
 <img src="palettes/Unicorn.jpg" alt="Unicorn" width="300"/>
 
 ---
+
+#### Vibrant
+
+<img src="palettes/Vibrant.jpg" alt="Vibrant" width="300"/>
+
+--- 
 
 #### Balanced
 

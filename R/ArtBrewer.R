@@ -49,6 +49,8 @@ ArtPalette <- list(
 
    # Others
    Unicorn = list(c("#EEBB60", "#D83D42", "#FFC7C6", "#00D1EE", "#0089A8", "#ECE100", "#F19B00", "#00BD5F", "#007553", "#7A688F"), c(1,2,3,4,5,6,7,8,9,10)),
+   Vibrant = list(c("#6E569E", "#B8A1C7", "#64B435", "#A8E0B0", "#007A7C", "#87C8EA", "#2C83D2", "#1A4C7A", "#c9573b", "#FB6408", "#FD940A", "#FAD3B2", "#B3638D", "#991C36", "#DE799C", "#1D8546", "#A3B3A3", "#5C3741", "#989898", "#DCDCDC", "#FED355", "#F6E4B0", "#E6D3E2", "#00B2C8", "#6A1B2D", "#4E6F52", "#FF8C00", "#FF6F61", "#8E5B9B", "#A1C6D4"),  
+                  c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30)),
    Balanced = list(c("#c4aeb1","#e3c1c0","#d29381","#ccb97e","#6667ab","#86a293","#884c5e","#9d848e"), c(1,2,3,4,5,6,7,8)),
    Biarritz = list(c("#93281c", "#f2bb37", "#74b9a3", "#649e8d"),c(1,2,3,4)),
    Colorful = list(c("#8db600", "#0067a4", "#008755", "#bd0031", "#f89279", "#f38400", "#dcd200", "#f3c300", "#872c16", "#865592", "#5f4e96", "#c2b180", "#f6a600", "#a0c9f0", "#b3446c", "#848482", "#e68fac"), c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17)),
@@ -59,7 +61,7 @@ ArtPalette <- list(
 
  artPalettes <- c("Albers1", "Albers2", "Corot", "Edelfelt1", "Edelfelt2", "Hokusai1", "Hokusai2", "Hokusai3", "Leslie1", "Leslie2", "Monet", "Merz", "Munch", "OKeeffe", "Renoir", "Seurat", "Signac", "Vallotton", "VanGogh1", "VanGogh2")
  wesandersonPalettes <- c("Nescaffier", "FrenchDispatch", "IsleOfDogs", "DarjeelingLimited1", "DarjeelingLimited2", "Zissou1", "Zissou2", "MoonriseKingdom1", "MoonriseKingdom2", "RoyalTenenbaums", "GrandBudapest")
- singlecellPalettes <- c("Colorful", "Seurat", "Seurat2", "Signac", "Signac2", "Unicorn")
+ singlecellPalettes <- c("Colorful", "Seurat", "Seurat2", "Signac", "Signac2", "Unicorn", "Vibrant")
 
 # Function for generating palettes
 
@@ -89,7 +91,7 @@ ArtPalette <- list(
 #'
 #' ggplot(data=iris, aes(x=Sepal.Length, y=Sepal.Width, color=Species)) +
 #' geom_point(size=2) +
-#' scale_color_manual(values=art.brewer("Albers2", 3))
+#' scale_color_manual(values=art.brewer("Vibrant", 3))
 #'
 #' @keywords colors
 #' @export
