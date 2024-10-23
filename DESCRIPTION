@@ -1,5 +1,5 @@
 Package: ArtBrewer
-Title: An Art-Based Source Of Palettes For R Inspired By A Certain Vision Of Colors
+Title: An Art-Based Source of Palettes for R Inspired by a Certain Vision of Colors
 Version: 1.5.1
 Authors@R: 
      person(given = "Guillaume P.",
