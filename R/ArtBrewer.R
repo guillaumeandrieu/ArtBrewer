@@ -5,12 +5,34 @@
 ArtPalette <- list(
    Albers1 =  list(c("#eeb5bb", "#a07f90", "#7fab88", "#d081ba", "#ce3d4e", "#f99480", "#d3a663", "#ecc373"), c(1,2,3,4,5,6,7,8)),
    Albers2 = list(c("#508082", "#09455d", "#2e5542", "#1d342a", "#a75c18", "#a13020", "#d3b97c", "#caa264"), c(1,2,3,4,5,6,7,8)),
+   
+   Basquiat = list(
+    c("#011300", "#eefefa",
+      "#f1c40f", "#e67e22", "#e74c3c",
+      "#2ecc71", "#27ae60",
+      "#3498db", "#2980b9",
+      "#9b59b6", "#8e44ad",
+      "#7f8c8d", "#34495e",
+      "#d35400", "#c0392b"),1:15),
+   
    Corot = list(c("#dee4f4", "#88afb4", "#a9be93", "#647553", "#487439", "#2b3b31"), c(1,2,3,4,5,6)),
    Edelfelt1 = list(c("#E8DAC4", "#9C7255", "#CAC5C1", "#535456", "#A98C69", "#513915"), c(1,2,3,4,5,6)),
    Edelfelt2 = list(c("#CBD5CC", "#73958D", "#D4BFB9", "#BD515E", "#A08F94", "#4A4037"), c(1,2,3,4,5,6)),
    Hokusai1 = list(c("#deebd9", "#b7cfc4", "#2c6f9c", "#19375b", "#fcdcad", "#e3b091"), c(1,2,3,4,5,6)),
    Hokusai2 = list(c("#d8d97a", "#95c36e", "#74c8c3", "#5a97c1", "#295384", "#0a2e57"), c(4, 2, 5, 3, 1, 6)),
    Hokusai3 = list(c("#abc9c8", "#72aeb6", "#4692b0", "#2f70a1", "#134b73", "#0a3351"), c(5, 2, 4, 1, 6, 3)),
+   
+   Hopper = list(
+    c("#2f3e46", "#354f52", "#52796f", "#84a98c",
+      "#cad2c5",
+      "#e9c46a", "#f4a261", "#e76f51",
+      "#6d6875", "#b5838d",
+      "#a5a58d", "#3a5a40",
+      "#344e41", "#1d3557"), 1:14),
+   
+   Klimt = list(c("#c9a43b", "#e8d8a6", "#b08d2d", "#6f6a2c", "#3b3a2a", "#9c5a3c", "#7c3f2a", "#5a2d2a", "#8c6d7a", "#b48aa6",
+                  "#355f4e", "#5b8a6a", "#8fbfa8", "#2f4b3c", "#1f2f2a","#d9b27c", "#a77b44", "#7a5a2b"), 1:18),
+   
    Leslie1 = list(c("#CEDAC2", "#F9F6CC", "#F1E0AA", "#AEBCBD", "#838578", "#704E27", "#32281C"), c(1, 2, 3, 4, 5, 6, 7)),
    Leslie2 = list(c("#D8EBDE", "#34B8CC", "#A09790", "#732A1E", "#8FA384", "#73804B", "#3A5752", "#05060E"), c(1, 2, 3, 4, 5, 6, 7, 8)),
    Matisse1 = list(c("#5d919b", "#3a3d59", "#c9b3a8", "#ae8184", "#aab1a0", "#bad596", "#4f7f71", "#98b5be", "#c98e4d", "#ab3d25", "#802d39", "#53435b"), c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)),
@@ -19,6 +41,14 @@ ArtPalette <- list(
    Merz = list(c("#ccae5b", "#3a7db8", "#7ba796", "#517a7b",  "#bdbcb8", "#435658"), c(1,2,3,4,5,6)),
    Munch = list(c("#e0b583", "#e07538", "#e42400", "#729fa5", "#486b6d", "#47585a", "#949885", "#486c5e", "#38483d"),c(1,2,3,4,5,6,7,8,9)),
    OKeeffe = list(c("#fbe3c2", "#f2c88f", "#ecb27d", "#e69c6b", "#d37750", "#b9563f", "#92351e"), c(7, 1, 6, 4, 2, 5, 3)),
+   
+   PicassoBlue = list(
+    c("#0f2a44", "#1f4b73", "#3b6f9e", "#5c8fc2",
+      "#87add6", "#b6cfe6",
+      "#2f3f3a", "#4a5a52", "#6b7c72",
+      "#3a2f2f", "#6a4a4a", "#9c7a7a",
+      "#d2bfbf"),1:13),
+ 
    Renoir = list(c("#17154f", "#2f357c", "#6c5d9e", "#9d9cd5", "#b0799a", "#f6b3b0", "#e48171", "#bf3729", "#e69b00", "#f5bb50", "#ada43b", "#355828"), c(2, 5, 9, 12, 3, 8, 7, 10, 4, 1, 6, 11)),
    Seurat = list(c("#95b560", "#50765f", "#2b463d", 
                    "#b5c2cb","#738aaa", "#364c6b", 
@@ -30,10 +60,13 @@ ArtPalette <- list(
    Signac = list(c("#fbe183", "#f4c40f", "#fe9b00", "#d8443c", "#9b3441", "#de597c", "#e87b89", "#e6a2a6", "#aa7aa1", "#9f5691", "#633372", "#1f6e9c", "#2b9b81", "#92c051"), c(13, 3, 2, 1, 11, 5, 8, 14, 12, 10, 7, 4, 6, 9)),
    Signac2 = list(c("#9aa5a7ff", "#e5cd93ff", "#aead3eff", "#df9a64ff",  "#824c68ff", "#bf7b80ff", "#d7a958ff", "#c4aa26ff", "#d597adff",  "#beb77cff", "#f0dea8ff", "#576b63ff", "#456ca9ff", "#b1b49cff", "#6c7935ff", "#ecc6adff", "#b88c77ff", "#8f92b6ff", "#60416fff", "#9f9a6eff", "#62885dff", "#e2d7abff", "#cf8c62ff", "#ded7c2ff", "#6d7484ff",
                     "#acc8a8ff", "#c78780ff", "#834356ff", "#c0b19aff", "#917162ff", "#6d6063ff"), c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30)),
+   Turner = list(c("#f3e9dc", "#e8d3b7", "#f2c879", "#f39c3d", "#d96c3a", "#b23a2c", "#7c2f2f", "#4f2a2a", "#6b7c8c", "#8fa3b8", "#b8cfe6", "#dde8f2", "#5b6d7a", "#3b4f5c",
+                   "#7a8f6a", "#a9b98c", "#cdd8b3"), 1:17),
    Vallotton = list(c("#768161", "#1a508e", "#a52c33", "#662f56", "#d2bd88", "#c9a781", "#3c4d47", "#5d3d32", "#d1cab0", "#292a25"), c(1,2,3,4,5,6,7,8,9,10)),
    VanGogh1 = list(c("#cece8e", "#ceb72d", "#798b25", "#91a4c4", "#496f9e", "#3e5a8c", "#303986", "#212d5f", "#692719", "#4f3421", "#2b2213"), c(1,2,3,4,5,6,7,8,9,10,11)),
    VanGogh2 = list(c("#bd3106", "#d9700e", "#e9a00e", "#eebe04", "#5b7314", "#c3d6ce", "#89a6bb", "#454b87"), c(1, 5, 8, 2, 7, 4, 6, 3)),
-   
+   Vermeer = list(c("#f2e6c9", "#e3d5b3", "#c9b27d", "#a88c4a", "#6f5b2f", "#2f3e4f", "#4a6a8a", "#6f94b8",
+                    "#9bb7d6", "#1f2a34", "#3b4a3f", "#6a7f6b", "#8e9a8a", "#b7bcb4", "#6b4a3a"), 1:15),
    #Wes Anderson
    Nescaffier = list(c("#73a87c", "#fbeecc", "#c1bc78", "#87acb6", "#205d89"), c(1,2,3,4,5)),
    FrenchDispatch = list(c("#5f8065", "#881f24", "#944c34", "#bb9d79", "#274f66"), c(1,2,3,4,5)),
@@ -46,6 +79,23 @@ ArtPalette <- list(
    MoonriseKingdom2 = list(c("#85d4e3", "#f4b5bd", "#9c964a", "#cdc08c", "#fad77b"), c(1,2,3,4,5)),
    RoyalTenenbaums = list(c("#cebac6", "#9f4f5c", "#c3bab5", "#2d2e67", "#dadbdd"), c(1,2,3,4,5)),
    GrandBudapest = list(c("#60465d", "#954a64", "#af6983", "#f4769a", "#fb8bb3", "#f7a7bc", "#f3bbb7", "#a5afc1", "#427895", "#977596"), c(1,2,3,4,5,6,7,8,9,10)),
+   
+   BladeRunner2049 = list(
+    c("#1b263b", "#415a77", "#778da9",
+      "#dcd1ba", "#c5a878", "#9d6630",
+      "#ffbf69" ,"#f77f00", "#c97050",
+      "#d62828", "#9d0208",
+      "#3a0ca3", "#7209b7",
+      "#2a9d8f", "#264653"), 1:15),
+   
+   Amelie = list(
+    c("#b31b1b", "#d64541", "#f07f7f",
+      "#1f6f5c", "#3a9d7a", "#8fd3b0",
+      "#f4e1b1", "#e6c97a", "#cfa32d",
+      "#4a3a2a", "#7a5a3a",
+      "#8b3a62", "#b06a8f"),1:13),
+   
+   
 
    # Others
    Unicorn = list(c("#EEBB60", "#D83D42", "#FFC7C6", "#00D1EE", "#0089A8", "#ECE100", "#F19B00", "#00BD5F", "#007553", "#7A688F"), c(1,2,3,4,5,6,7,8,9,10)),
@@ -59,7 +109,8 @@ ArtPalette <- list(
    RdYlBu = list(c("#92001D", "#cb1a1e", "#ee5634", "#fb9e4f", "#fdda7e", "#ffffb2", "#d9f0f6", "#9cd0e3", "#629cc6", "#3660a5", "#252383"), c(1,2,3,4,5,6,7,8,9,10,11))
  )
 
- artPalettes <- c("Albers1", "Albers2", "Corot", "Edelfelt1", "Edelfelt2", "Hokusai1", "Hokusai2", "Hokusai3", "Leslie1", "Leslie2", "Monet", "Merz", "Munch", "OKeeffe", "Renoir", "Seurat", "Signac", "Vallotton", "VanGogh1", "VanGogh2")
+ artPalettes <- c("Albers1", "Albers2", "Basquiat", "Corot", "Edelfelt1", "Edelfelt2", "Hokusai1", "Hokusai2", "Hokusai3", "Hopper", "Klimt", "Leslie1", "Leslie2", 
+                  "Monet", "Merz", "Munch", "OKeeffe", "PicassoBlue", "Renoir", "Seurat", "Signac", "Turner", "Vallotton", "VanGogh1", "VanGogh2", "Vermeer")
  wesandersonPalettes <- c("Nescaffier", "FrenchDispatch", "IsleOfDogs", "DarjeelingLimited1", "DarjeelingLimited2", "Zissou1", "Zissou2", "MoonriseKingdom1", "MoonriseKingdom2", "RoyalTenenbaums", "GrandBudapest")
  singlecellPalettes <- c("Colorful", "Seurat", "Seurat2", "Signac", "Signac2", "Unicorn", "Vibrant")
 

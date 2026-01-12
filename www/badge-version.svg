@@ -10,7 +10,7 @@
    style="enable-background:new 0 0 90 20;"
    xml:space="preserve"
    sodipodi:docname="badge-version.svg"
-   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -31,7 +31,7 @@
    inkscape:window-width="1392"
    inkscape:window-height="1188"
    inkscape:window-x="0"
-   inkscape:window-y="25"
+   inkscape:window-y="30"
    inkscape:window-maximized="0"
    inkscape:current-layer="g9" />
 <style
@@ -160,7 +160,7 @@
 		<text
    transform="translate(55.0088,15)"
    class="st6 st7 st8"
-   id="text8">1.5.1</text>
+   id="text8">1.6.0</text>
 	</g>
 	<rect
    x="55"
@@ -172,6 +172,6 @@
 	<text
    transform="translate(55.0088,14)"
    class="st9 st7 st8"
-   id="text9">1.5.1</text>
+   id="text9">1.6.0</text>
 </g>
 </svg>
