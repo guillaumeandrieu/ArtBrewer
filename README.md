@@ -83,7 +83,8 @@ display_all(sequential = TRUE, category = "art")
 
 #### Albers1
 
-<img src="palettes/albers1-source.jpeg" alt="albers1" width="300"/> <img src="palettes/Albers1.jpg" alt="albers1" width="300"/>
+<img src="palettes/albers1-source.jpeg" alt="albers1" width="300"/>
+<img src="palettes/Albers1.jpg" alt="albers1" width="300"/>
 
 --- 
 
@@ -92,7 +93,15 @@ display_all(sequential = TRUE, category = "art")
 <img src="palettes/albers2-source.jpeg" alt="albers2" width="300"/>
 <img src="palettes/Albers2.jpg" alt="albers2" width="300"/>
 
---- 
+---
+
+#### Basquiat
+
+<img src="palettes/basquiat-source.jpg" alt="Untitled V from The Figures Portfolio, 1982/2023" width="300"/>
+<img src="palettes/Basquiat.jpg" alt="basquiat" width="300"/>
+
+
+---
 
 ### Corot
 
@@ -103,7 +112,7 @@ display_all(sequential = TRUE, category = "art")
 
 ### Edelfelt1
 
-<img src="palettes/edelfelt1-source.jpg" alt="corot" width="300"/>
+<img src="palettes/edelfelt1-source.jpg" alt="Edelfelt" width="300"/>
 <img src="palettes/Edelfelt1.jpg" alt="Boys Playing on the Shore - Edelfelt" width="300"/>
 
 --- 
@@ -134,6 +143,20 @@ display_all(sequential = TRUE, category = "art")
 
 <img src="palettes/hokusai3-source.jpeg" alt="hokusai3" width="300"/>
 <img src="palettes/Hokusai3.jpg" alt="hokusai3" width="300"/>
+
+--- 
+
+### Hopper
+
+<img src="palettes/hopper-source.jpg" alt="Nighthawks by Edward Hopper 1942" width="300"/>
+<img src="palettes/Hopper.jpg" alt="hokusai3" width="300"/>
+
+--- 
+
+### Klimt
+
+<img src="palettes/klimt-source.jpg" alt="Portrait of Adele Bloch-Bauer I (1907)" width="300"/>
+<img src="palettes/Klimt.jpg" alt="Klimt" width="300"/>
 
 --- 
 
@@ -194,6 +217,13 @@ display_all(sequential = TRUE, category = "art")
 
 --- 
 
+### Picasso Blue
+
+<img src="palettes/picasso-blue-source.jpeg" alt="The Tragedy, 1903" width="300"/>
+<img src="palettes/PicassoBlue.jpg" alt="Picasso Blue" width="300"/>
+
+--- 
+
 ### Renoir
 
 <img src="palettes/renoir-source.jpeg" alt="renoir" width="300"/>
@@ -230,6 +260,14 @@ display_all(sequential = TRUE, category = "art")
 
 --- 
 
+### Turner
+
+<img src="palettes/turner-source.jpg" alt="The Fighting Temeraire tugged to her last berth to be broken up, 1838" width="300"/>
+<img src="palettes/Turner.jpg" alt="turner" width="300"/>
+
+--- 
+
+
 ### Vallotton
 
 <img src="palettes/vallotton-source.jpeg" alt="vallotton" width="300"/>
@@ -250,6 +288,13 @@ display_all(sequential = TRUE, category = "art")
 <img src="palettes/VanGogh2.jpg" alt="vangogh2" width="300"/>
 
 ---
+
+### Vermeer
+
+<img src="palettes/vermeer-source.jpg" alt="Het melkmeisje, circa 1658" width="300"/>
+<img src="palettes/Vermeer.jpg" alt="Vermeer" width="300"/>
+
+--- 
 
 ### Wes Anderson
 
@@ -329,6 +374,22 @@ display_all(sequential = TRUE, category = "art")
 <img src="palettes/Zissou2.jpg" alt="Zissou2" width="300"/>
 
 ---
+
+### Movies
+
+#### Amelie
+
+<img src="palettes/amelie-poulain.jpg" alt="amelie-source" width="300"/> 
+<img src="palettes/Amelie.jpg" alt="amelie" width="300"/>
+
+--- 
+
+#### Blade Runner 2049
+
+<img src="palettes/blade-runner-2049-source.jpg" alt="blade-runner-2049-source" width="300"/>
+<img src="palettes/BladeRunner2049.jpg" alt="blade-runner-2049" width="300"/>
+
+--- 
 
 ### Others
 
